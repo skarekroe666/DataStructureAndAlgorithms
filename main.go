@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	conditionals "DSA/Conditionals"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("DSA")
+
+	// conditionals.AreaCircle()
+	// conditionals.AreaTriangle()
+	conditionals.AreaRectangle()
 }
